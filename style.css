@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 body {
   margin: 0;
@@ -11,6 +12,7 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
+  position: absolute;
 }
 
 .header a {
@@ -34,4 +36,81 @@ body {
   width: 44px;
   height: 45px;
   background: url('./assets/header-logo.png');
+}
+
+.your-life {
+  height: 744px;
+  background: url('./assets/bg-image.png');
+  flex-direction: column;
+  align-items: center;
+}
+
+.your-life_main {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.your-life_main > * {
+  margin: 12px 0;
+}
+
+.your-life_name {
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+}
+
+.your-life_description {
+  color: white;
+  width: 450px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.your-life_button {
+  text-transform: uppercase;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  width: 184px;
+  height: 46px;
+  background: #00AFDB;
+  color: white;
+  border: none;
+}
+
+.your-life_socials {
+  width: 170px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+
+.your-life_social {
+  width: 20px;
+  height: 20px;
+}
+
+.mail {
+  background: url('./assets/mail-icon.png');
+}
+
+.facebook {
+  background: url('./assets/facebook-icon.png');
+}
+
+.instagram {
+  background: url('./assets/instargarm-icon.png');
+}
+
+.youtube {
+  background: url('./assets/youtube-icon.png');
 }
