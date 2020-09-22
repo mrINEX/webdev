@@ -297,6 +297,7 @@ body {
   width: 9px;
   height: 14px;
   background: url('./assets/arrow-left.png');
+  cursor: pointer;
 }
 
 .arraw-numbers {
@@ -311,6 +312,7 @@ body {
   width: 9px;
   height: 14px;
   background: url('./assets/arrow-right.png');
+  cursor: pointer;
 }
 
 .slider-one-item {
@@ -429,6 +431,7 @@ body {
   position: relative;
   background: #00AFDB;
   display: flex;
+  cursor: pointer;
 }
 
 .apple-icon,
@@ -486,6 +489,10 @@ body {
   position: absolute;
   left: 160px;
   top: 75px;
+}
+
+.footer-nav-link:hover {
+  border-bottom: 1px solid white;
 }
 
 .footer-nav a {

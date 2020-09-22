@@ -8,6 +8,7 @@
 </head>
 <body>
   <div class="wrapper-main">
+    <h1 style="display: none;">webdev</h1>
     <header class='header wrapper'>
       <div class="header_wrapper-links">
         <a class="header-link-about">About</a>
@@ -46,7 +47,11 @@
       </div>
       <div class="slider-items-number">
         <div class="arraw-left"></div>
-        <div class="arraw-numbers"> 1 / 5</div>
+        <div class="arraw-numbers">
+          <span class="start-number">1</span>
+          <span>/</span> 
+          <span class="end-number">5</span>
+        </div>
         <div class="arraw-right"></div>
       </div>
       <div class="community-slider">
@@ -59,18 +64,18 @@
       <div class="implement-image"></div>
       <div class="implement-content">
         <h4 class="implement_content-title">Implement right Code</h4>
-        <p class="implement_content-descriptions">These might be considered part of the programming process, but often the term software development is used for this larger process with the term programming, implementation</p>
+        <p class="implement_content-descriptions">These might be considered part of the <strong>programming process</strong>, but often the term software development is used for this larger process with the term programming, implementation</p>
         <button class="implement_button">learn more</button>
       </div>
     </div>
     <div class="signup wrapper">
-      <div class="signup-form">
+      <form class="signup-form">
         <h4 class="signup-title">sign up for our newsletter</h4>
         <div class="email-wrapper">
           <input class="signup-email" type="email" placeholder="E-mail">
-          <button class="signup-submit" type="submit"></button>
+          <input class="signup-submit" type="submit" value="">
         </div>
-      </div>
+      </form>
     </div>
     <div class="download wrapper">
       <div class="download-block">
